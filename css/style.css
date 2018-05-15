@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	background-image: url(../images/back.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.youWin {
+	font-size: 60px;
+	color: #EF0509;
+	font-family: 'Luckiest Guy', cursive;
+	box-shadow: 14px 15px 88px 16px rgba(96, 140, 252, 1);
+	margin-left: 650px;
+	margin-right: 650px;
+	border-radius: 20px;
+}
+.howTo {
+	font-size: 30px;
+	align: right;
+	box-shadow: 26px 32px 63px 16px rgba(0, 0, 0, 0.75);
+	margin-left: 33%;
+	margin-right: 33%;
+	font-family: 'Titan One', cursive;
+	border-radius: 20px;
+}
+audio {
+	display: none;
+}
