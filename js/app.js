@@ -51,11 +51,11 @@ Player.prototype.handleInput = function(keyPress) {
 	
 	// When the player reaches the top of the game (the pipes), user is reset to the start position
 	//The modal (You Win!) apears and shortly after (Play Again!) apears
-	if (this.y < 0) {
-		setTimeout(function() {
-			player.x = 202;
-			player.y = 405;
-		}, 800);
+    if (this.y < 0) {
+        setTimeout(() => {
+            this.x = 202;
+            this.y = 405;
+        }, 800);
 		$('.youWin span').html(youWin).delay(2000).queue(function() {
 			$('.youWin span').html("Play Again!");
 		});
